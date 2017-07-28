@@ -15,7 +15,7 @@ namespace AbstractPlanets
     /// <summary>
     /// This is the Giant Planet class
     /// </summary>
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         // PRIVATE INSTANCE VARIABLES
         private string _type;
