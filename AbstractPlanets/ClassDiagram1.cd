@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AbstractPlanets.Program" Collapsed="true">
-    <Position X="1.25" Y="5.5" Width="1.5" />
+  <Class Name="AbstractPlanets.Program">
+    <Position X="2.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AbstractPlanets.Planet">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQBIAAgAAAAAEAEAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AbstractPlanets.GiantPlanet">
-    <Position X="4.75" Y="0.75" Width="1.5" />
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
@@ -23,7 +23,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="AbstractPlanets.TerrestrialPlanet">
-    <Position X="4.75" Y="3.5" Width="1.5" />
+    <Position X="9" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
@@ -31,21 +31,21 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="AbstractPlanets.IHasMoons">
-    <Position X="3.75" Y="6.25" Width="1.5" />
+    <Position X="5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoons.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="AbstractPlanets.IHasRings">
-    <Position X="2" Y="6.75" Width="1.5" />
+    <Position X="9" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasRings.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="AbstractPlanets.IHabitable">
-    <Position X="6.75" Y="6.75" Width="1.5" />
+    <Position X="7" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHabitable.cs</FileName>

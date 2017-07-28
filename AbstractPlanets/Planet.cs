@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Hoang Giang, Le
- * Date: July 28th 2017
+ * Name:        Hoang Giang, Le
+ * ID:          300922977
+ * Date:        July 28th 2017
  * Description: This is the Abstract Planet class
- * Version: 0.2 - Add some comments
+ * Version:     2.0 - Final Version (more detail comments)
  */
 
 namespace AbstractPlanets
@@ -113,7 +114,10 @@ namespace AbstractPlanets
         // PUBLIC METHODS
         public override string ToString()
         {
-            return string.Format("The planet {0} has {1}m diameter and {2}kg mass.", this.Name, this.Diameter, this.Mass);
+            return string.Format("Planet Information:\n" + 
+                                 ">>>>>>>>>>>>>>>>>>>\n" +
+                                 ">>>>>>>>>> " + "{0} has {1} billion of kms in diameter and {2} billion of tons in mass.\n" + 
+                                 ">>>>>>>>>>>>>>>>>>>\n", this.Name, this.Diameter, this.Mass);
         }
     }
 }

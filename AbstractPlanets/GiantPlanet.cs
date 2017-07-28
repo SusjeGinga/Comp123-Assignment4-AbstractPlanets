@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Hoang Giang, Le
- * Date: July 28th 2017
+ * Name:        Hoang Giang, Le
+ * ID:          300922977
+ * Date:        July 28th 2017
  * Description: This is the Giant Planet class that extends the Planet class
- * Version: 0.2 - create variables and methods for Giant Planet class
+ * Version:     2.0 - Final Version (more detail comments)
  */
 
 namespace AbstractPlanets
