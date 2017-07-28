@@ -57,7 +57,7 @@ namespace AbstractPlanets
         {
             get
             {
-                return _name = Name;
+                return _name;
             }
         }
         public double OrbitalPeriod
@@ -113,7 +113,7 @@ namespace AbstractPlanets
         // PUBLIC METHODS
         public override string ToString()
         {
-            return string.Format("\n The planet {0} has {1} diameter and {2} mass.", this.Name, this.Diameter, this.Mass);
+            return string.Format("The planet {0} has {1}m diameter and {2}kg mass.", this.Name, this.Diameter, this.Mass);
         }
     }
 }
